@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header {
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  
+  #nav_bar {
+    float: right;
+     text-decoration-color: grey; 
+  }
+  
+  #nav_bar li {
+    display: inline-block;
+    padding: 8px;
+  }
+  
+
+  .nav-links {
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    color: rgba(0,0,0,0.87) !important;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+  
+  
+  a {
+    text-decoration: none;
+    color: #404040;
+}
+  
+  li.nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  
+  .google{
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+  }
+  
+  
+  
+
+   
+ 
+    
+    
+
+
+
+.searchBar
+{
+    padding:20px;
+    display:block;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    border-radius:40px;
+    outline:none;
+    font-size: 18px;
+    width: 570px;
+    text-align: center;
+    font-family: arial,sans-serif;
+    margin: 11px 4px;
+    padding: 0 16px;
+   
+    height: 50px;
+   
+    left: 30%;
+
+    
+}  .bt {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    outline:none;
+  }
+     
+
+.searchBar:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  } 
+  
+  .bt:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  } 
+  .center{
+   
+    
+    display:block; 
+    text-align:center;
+    
+}
+    
+.bar{
+   
+    
+    display:block; 
+    text-align:center;
+    width: 50%;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    display: flex;
+    padding: 5px 8px 0 10px;
+    padding-left: 350px;
+}
+  
+  
+ 
+  
+  @media screen and (max-width: 400px) {
+   
+   li.nav-links a {
+      display: none;
+    }
+    
+   
+    
+  
+  
+  }
+  
+  @media screen and (max-width: 565px) {
+   
+    li.nav-links a {
+      display: none;
+    }
+    
+    
+   
+}
