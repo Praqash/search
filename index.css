@@ -104,6 +104,7 @@ body {
     cursor: pointer;
     user-select: none;
     outline:none;
+    
   }
      
 
@@ -134,7 +135,8 @@ body {
     flex-basis: 0%;
     display: flex;
     padding: 5px 8px 0 10px;
-    padding-left: 350px;
+    
+    margin: 0px auto;
 }
   
   
