@@ -3,26 +3,26 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
   }
-  
+
   header {
     width: 100%;
   }
-  
+
   ul {
     list-style: none;
   }
-  
-  
+
+
   #nav_bar {
     float: right;
-     text-decoration-color: grey; 
+     text-decoration-color: grey;
   }
-  
+
   #nav_bar li {
     display: inline-block;
     padding: 8px;
   }
-  
+
 
   .nav-links {
     display: inline-block;
@@ -34,21 +34,21 @@ body {
     font-family: arial,sans-serif;
     font-size: 13px;
 }
-  
-  
+
+
   a {
     text-decoration: none;
     color: #404040;
 }
-  
+
   li.nav-links a:hover {
     text-decoration: underline;
   }
-  
-  
-  
-  
-  
+
+
+
+
+
   .google{
     text-align: center;
     margin: 0 auto;
@@ -56,14 +56,14 @@ body {
     padding-top: 112px;
     padding-bottom: 20px;
   }
-  
-  
-  
 
-   
- 
-    
-    
+
+
+
+
+
+
+
 
 
 
@@ -81,12 +81,12 @@ body {
     font-family: arial,sans-serif;
     margin: 11px 4px;
     padding: 0 16px;
-   
+
     height: 50px;
-   
+
     left: 30%;
 
-    
+
 }  .bt {
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
     background-color: #f2f2f2;
@@ -104,29 +104,29 @@ body {
     cursor: pointer;
     user-select: none;
     outline:none;
-    
+
   }
-     
+
 
 .searchBar:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
-  } 
-  
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+  }
+
   .bt:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
-  } 
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+  }
   .center{
-   
-    
-    display:block; 
+
+
+    display:block;
     text-align:center;
-    
+
 }
-    
+
 .bar{
-   
-    
-    display:block; 
+
+
+    display:block;
     text-align:center;
     width: 50%;
     flex: 1;
@@ -135,31 +135,62 @@ body {
     flex-basis: 0%;
     display: flex;
     padding: 5px 8px 0 10px;
-    
     margin: 0px auto;
 }
-  
-  
- 
-  
+
+#fbar{
+  background: #f2f2f2;
+  line-height: 40px;
+  min-width: 980px;
+  border-top: 1px solid #e4e4e4;
+  height: auto;
+  visibility: visible;
+  line-height: 40px;
+  bottom: 0;
+  font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    z-index: 104;
+    width: 100%;
+
+
+
+
+
+}
+
+
+.fc{
+
+
+
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+
+}
+
+
+
   @media screen and (max-width: 400px) {
-   
+
    li.nav-links a {
       display: none;
     }
-    
-   
-    
-  
-  
+
+
+
+
+
   }
-  
+
   @media screen and (max-width: 565px) {
-   
+
     li.nav-links a {
       display: none;
     }
-    
-    
-   
+
+
+
 }
